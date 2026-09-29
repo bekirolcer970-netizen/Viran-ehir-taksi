@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Viranşehir Taksi | 0543 584 57 41</title>
+<meta name="description" content="Viranşehir Taksi - 7/24 güvenilir taksi hizmeti.">
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family:Arial,sans-serif;
+  background:#111;
+  color:#fff;
+}
+header{
+  background:#f5c400;
+  color:#111;
+  padding:18px 20px;
+  text-align:center;
+  position:sticky;
+  top:0;
+  z-index:10;
+}
+header h1{font-size:28px}
+nav{margin-top:8px}
+nav a{
+  color:#111;
+  text-decoration:none;
+  margin:0 8px;
+  font-weight:bold;
+}
+.hero{
+  min-height:75vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:40px 20px;
+  background:linear-gradient(#000b,#000b),
+  url("https://images.unsplash.com/photo-1511919884226-fd3cad34687c?auto=format&fit=crop&w=1600&q=80")
+  center/cover;
+}
+.hero h2{font-size:45px;margin-bottom:15px}
+.hero p{font-size:20px;margin-bottom:25px}
+.btn{
+  display:inline-block;
+  padding:15px 24px;
+  margin:6px;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:bold;
+  color:#111;
+  background:#f5c400;
+}
+.whatsapp{background:#25D366;color:white}
+section{
+  padding:50px 20px;
+  max-width:1000px;
+  margin:auto;
+  text-align:center;
+}
+section h2{
+  color:#f5c400;
+  margin-bottom:20px;
+  font-size:30px;
+}
+.cards{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  justify-content:center;
+}
+.card{
+  background:#222;
+  padding:25px;
+  border-radius:12px;
+  width:280px;
+}
+.card h3{color:#f5c400;margin-bottom:10px}
+footer{
+  background:#f5c400;
+  color:#111;
+  text-align:center;
+  padding:20px;
+  font-weight:bold;
+}
+@media(max-width:600px){
+  .hero h2{font-size:34px}
+  .hero p{font-size:17px}
+  nav a{display:inline-block;margin-top:8px}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>🚕 Viranşehir Taksi</h1>
+  <nav>
+    <a href="#hizmet">Hizmetler</a>
+    <a href="#iletisim">İletişim</a>
+  </nav>
+</header>
+<div class="hero">
+  <div>
+    <h2>Viranşehir Taksi</h2>
+    <p>7/24 Güvenli ve Hızlı Ulaşım</p>
+    <a class="btn" href="tel:+905435845741">
+      📞 Hemen Ara
+    </a>
+    <a class="btn whatsapp"
+       href="https://wa.me/905435845741?text=Merhaba%20Viran%C5%9Fehir%20Taksi">
+      💬 WhatsApp
+    </a>
+  </div>
+</div>
+<section id="hizmet">
+  <h2>Hizmetlerimiz</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>🚕 Şehir İçi</h3>
+      <p>Viranşehir içinde hızlı ve güvenli ulaşım.</p>
+    </div>
+    <div class="card">
+      <h3>🛣️ Şehirler Arası</h3>
+      <p>Şehirler arası yolculuklarınız için taksi hizmeti.</p>
+    </div>
+    <div class="card">
+      <h3>⏰ 7/24 Hizmet</h3>
+      <p>Günün her saati bize ulaşabilirsiniz.</p>
+    </div>
+  </div>
+</section>
+<section id="iletisim">
+  <h2>İletişim</h2>
+  <p style="font-size:22px;margin-bottom:20px;">
+    📞 <strong>0543 584 57 41</strong>
+  </p>
+  <a class="btn" href="tel:+905435845741">
+    Taksi Çağır
+  </a>
+  <a class="btn whatsapp"
+     href="https://wa.me/905435845741">
+    WhatsApp'tan Yaz
+  </a>
+</section>
+<footer>
+  © 2026 Viranşehir Taksi | Bekir Ölçer
+</footer>
+</body>
+</html>
